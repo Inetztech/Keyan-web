@@ -1,0 +1,413 @@
+@media only screen and (max-width:1400px) {
+    .analytics-image img {
+
+        transform: translate(31%, 21%) !important;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .hero-heading {
+        font-size: 32px !important;
+    }
+
+    .hero-subtext {
+        font-size: 17px !important;
+    }
+
+    .herobtn {
+        font-size: 17px !important;
+        font-weight: 500 !important;
+        border-radius: 6px !important;
+        padding: 8px 15px !important;
+
+    }
+
+    .tab-we-1 {
+        font-size: 16px !important;
+    }
+
+    /* about */
+    .about-1 h2 {
+        font-size: 2.2rem !important;
+        font-weight: 600 !important;
+
+    }
+
+    .about-1 p {
+        font-size: 24px !important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    .tab-we-1 {
+        font-size: 14px !important;
+    }
+
+    .contact-last-1 img {
+        height: 71vh !important;
+    }
+
+    .analytics-image img {
+        transform: translate(31%, 32%) !important;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .tab-we-1 {
+        margin-bottom: 18px !important;
+    }
+
+    .test-1 {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .analytics-image img {
+        transform: translate(31%, 21%) !important;
+    }
+
+    /* about */
+    .about-1 h2 {
+        font-size: 1.6rem !important;
+        font-weight: 600 !important;
+
+    }
+
+    .about-1 p {
+        font-size: 20px !important;
+        text-align: justify;
+    }
+
+    .icon-box {
+        margin-top: 10px !important;
+    }
+
+    .about-5 {
+        padding: 10px !important;
+    }
+
+    /* s */
+    .exp-3 h2 {
+        font-size: 23px !important;
+    }
+
+    .exp-3 p {
+        font-size: 18px !important;
+        width: 85% !important;
+    }
+
+    .exp-4 h2 {
+        font-size: 23px !important;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .imgLogo {
+        height: 39px !important;
+        border-radius: 10px !important;
+
+    }
+
+    .hero-heading {
+        font-size: 32px !important;
+    }
+
+    .hero-subtext {
+        font-size: 17px !important;
+    }
+
+    .herobtn {
+
+        font-weight: 500 !important;
+        border-radius: 6px !important;
+        padding: 8px 15px !important;
+
+    }
+
+    .herobtn a {
+        font-size: 17px !important;
+    }
+
+    .form-section {
+        min-width: 330px !important;
+
+    }
+
+    .form-section h2 {
+        font-size: 18px !important;
+        ;
+    }
+
+    .contact-last {
+        padding: 20px !important;
+    }
+
+    .contact-last-2 p {
+        text-align: justify !important;
+    }
+
+    .contact-last {
+        height: auto;
+    }
+
+    .contact-last-2 h3 {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+
+    }
+
+    .contact-last-2 p {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        line-height: 120% !important;
+
+    }
+
+    .contact-btn {
+        padding: 5px 12px !important;
+        font-size: 10px !important;
+        font-weight: 600 !important;
+    }
+
+    .contact-last-1 img {
+        height: 31vh !important;
+    }
+
+    .hero-Section {
+        padding-top: 100px !important;
+        min-height: 65vh !important;
+    }
+
+    .hero-heading {
+        font-size: 25px !important;
+        font-weight: 600 !important;
+    }
+
+    .hero-subtext {
+        font-size: 21px !important;
+        font-weight: 400 !important;
+
+    }
+
+    .herobtn {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        border-radius: 6px !important;
+        padding: 7px 10px !important;
+
+    }
+
+    .why-head h1 {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+    }
+
+    .tab-we-1 {
+        font-size: 13px !important;
+        margin-bottom: 10px !important;
+        font-weight: 500 !important;
+    }
+
+    .solutions {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+    }
+
+    .tab-craft p {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+
+    .tab-craft li {
+        font-size: 16px !important;
+    }
+
+    .tab-craft img {
+        height: 100% !important;
+        max-height: 18vh !important;
+    }
+
+    .admin-solutions-1 img {
+        height: 19vh !important;
+    }
+
+    .admin-heading {
+        font-size: 21px !important;
+        font-weight: 600 !important;
+
+    }
+
+    .admin-text {
+        font-size: 16px !important;
+    }
+
+    .section-title {
+        font-size: 22px !important;
+        font-weight: 600 !important;
+    }
+
+    .Quick-1 {
+        font-size: 19px !important;
+        font-weight: 500 !important;
+    }
+
+    .Quick-2 {
+        font-size: 16px !important;
+    }
+
+    .feature-box h5 {
+        font-size: 18px !important;
+        font-weight: 600 !important;
+    }
+
+    .feature-box p {
+        font-size: 16px !important;
+    }
+
+    .feature-icon i {
+        font-size: 20px !important;
+    }
+
+    .section-heading {
+        font-size: 28px !important;
+        font-weight: 600 !important;
+        line-height: 1 !important;
+    }
+
+    .arrow {
+        font-size: 22px !important;
+    }
+
+    .testimonial-heading {
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        line-height: 1 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .testimonial-img {
+        width: 244px !important;
+        height: 275px !important;
+
+    }
+
+    .quote {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+        line-height: 1.4 !important;
+    }
+
+    .section-title {
+        font-size: 21px !important;
+        font-weight: 600 !important;
+
+    }
+
+    .pricing-card h4 {
+        font-size: 22px !important;
+        font-weight: 600 !important;
+    }
+
+    .analytics-text h1 {
+        font-size: 25px !important;
+    }
+
+    .analytics-text p {
+        font-size: 16px !important;
+    }
+
+    .analytics-text button {
+        font-size: 18px !important;
+        font-weight: 500 !important;
+    }
+
+    .analytics-image img {
+        display: none !important;
+    }
+
+    .about-1 h2 {
+        font-size: 1.2rem !important;
+        font-weight: 600 !important;
+
+    }
+
+    .about-1 p {
+        font-size: 18px !important;
+        text-align: justify;
+    }
+
+    .about-2 h2 {
+        font-size: 1.2rem !important;
+    }
+
+    .about-2 img {
+        height: 20vh !important;
+    }
+
+    .innovation-section h1 {
+        font-size: 1.5rem !important;
+
+    }
+
+    .innovation-section p {
+        font-size: 0.8rem !important;
+    }
+
+    /* ss */
+
+    .exp-1 h2 {
+        font-size: 20px !important;
+
+    }
+
+    .exp-1 p {
+        font-size: 16px !important;
+    }
+
+    .exp-2 h2 {
+        font-size: 20px !important;
+    }
+
+    .exp-2 p {
+        font-size: 16px !important;
+    }
+
+    .exp-2 img {
+        height: 25vh !important;
+    }
+
+    .exp-3 h2 {
+        font-size: 16px !important;
+    }
+
+    .exp-3 p {
+        font-size: 16px !important;
+    }
+
+    .exp-4 h2 {
+        font-size: 20px !important;
+    }
+
+    .exp-5 h2 {
+        font-size: 20px !important;
+    }
+
+    .exp-5 p {
+        font-size: 12px !important;
+    }
+
+    .exp-8 h2 {
+        font-size: 20px !important;
+    }
+
+    .exp-8 p {
+        font-size: 16px !important;
+    }
+
+    .exp-9 {
+        padding: 10px;
+    }
+}
