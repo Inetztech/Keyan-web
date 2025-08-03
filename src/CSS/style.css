@@ -844,6 +844,17 @@ button:hover {
     color: black;
     text-align: justify;
 }
+.contact-last-2 span {
+    color: black;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 18px;
+}
+.contact-last-2 a {
+   text-decoration: none;
+   color: white;
+
+}
 
 .contact-last-2 p {
     margin-bottom: 0;
@@ -852,6 +863,7 @@ button:hover {
     line-height: 170%;
     max-width: 90%;
     color: white;
+    display: inline-block;
 }
 
 .contact-last-2 button {
@@ -885,7 +897,7 @@ button:hover {
 }
 
 .contact-last-1 img {
-    height: 43vh;
+    height: 60vh;
     border-radius: 20px;
     object-fit: contain;
 }
