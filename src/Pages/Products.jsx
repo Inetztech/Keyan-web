@@ -4,6 +4,7 @@ import {
   Users, KeyRound, Headphones, TrendingUp, ShieldCheck,
   BedDouble, Wallet, Wrench, FileAudio, BarChart3, Sparkles, Briefcase, ExternalLink
 } from 'lucide-react';
+import img from "../aessts/products/img.png";
 
 /* ---------------- helpers ---------------- */
 
@@ -193,7 +194,7 @@ function BrowserFrame({ domain, image, liveUrl, alt, dark }) {
 function Hero() {
   const [ref, inView] = useInView(0.1);
   return (
-    <section ref={ref} className="relative mt-18 overflow-hidden bg-blue-950 py-10 lg:py-14 min-h-[85vh] flex items-center justify-center border-b border-blue-900/50">
+    <section ref={ref} className="relative mt-16 overflow-hidden bg-blue-950 py-16 sm:py-20 lg:py-28 min-h-[90vh] flex items-center justify-center border-b border-blue-900/50">
       <div className="absolute inset-0 pointer-events-none">
         <img
           src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=2000&q=80"
@@ -205,67 +206,44 @@ function Hero() {
         <div className="blob blob-b" />
       </div>
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           
-          <div className="lg:col-span-7 flex flex-col items-start text-left">
+          {/* Equal size 6-column layout for text */}
+          <div className="lg:col-span-6 flex flex-col items-start text-left">
             <div className={`fade-up ${inView ? 'in' : ''}`}>
-              <span className="inline-flex items-center gap-1.5 text-[11px] font-semibold tracking-wider uppercase text-blue-300 bg-blue-900/60 border border-blue-700/60 rounded-full px-3.5 py-1 shadow-sm">
-                <Sparkles className="w-3.5 h-3.5 text-blue-400" /> Software studio
+              <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-wider uppercase text-blue-300 bg-blue-900/60 border border-blue-700/60 rounded-full px-4 py-1.5 shadow-sm">
+                <Sparkles className="w-4 h-4 text-blue-400" /> Software studio
               </span>
             </div>
 
-            <h1 className={`fade-up delay-1 ${inView ? 'in' : ''} mt-4 text-2xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight`}>
+            <h1 className={`fade-up delay-1 ${inView ? 'in' : ''} mt-6 text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-tight`}>
               Three products.<br className="hidden sm:block" /> Three real systems in production.
             </h1>
 
-            <p className={`fade-up delay-2 ${inView ? 'in' : ''} mt-3.5 text-xs sm:text-sm text-blue-200/90 max-w-lg leading-relaxed`}>
+            <p className={`fade-up delay-2 ${inView ? 'in' : ''} mt-5 text-sm sm:text-base text-blue-200/90 max-w-xl leading-relaxed`}>
               INetz gets students into internships. The Hostel Management System runs the building they live in. AI Voice Interview gets them hired. We build all three.
             </p>
 
-            <div className={`fade-up delay-3 ${inView ? 'in' : ''} mt-6 flex flex-wrap items-center gap-3`}>
-              <a href="#inetz" className="group inline-flex items-center gap-2 bg-white text-blue-950 font-semibold text-xs px-5 py-2.5 rounded-xl hover:bg-blue-50 transition-all shadow-md no-underline">
+            <div className={`fade-up delay-3 ${inView ? 'in' : ''} mt-8 flex flex-wrap items-center gap-4`}>
+              <a href="#inetz" className="group inline-flex items-center gap-2.5 bg-white text-blue-950 font-bold text-sm px-6 py-3.5 rounded-xl hover:bg-blue-50 transition-all shadow-lg no-underline">
                 <span>Explore products</span>
-                <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
-              <a href="#contact" className="inline-flex items-center gap-2 border border-blue-700/80 text-blue-100 font-semibold text-xs px-5 py-2.5 rounded-xl hover:bg-blue-900/60 transition-all no-underline">
+              <a href="#contact" className="inline-flex items-center gap-2.5 border border-blue-700/80 text-blue-100 font-bold text-sm px-6 py-3.5 rounded-xl hover:bg-blue-900/60 transition-all no-underline">
                 <span>Talk to us</span>
               </a>
             </div>
           </div>
 
-          <div className={`lg:col-span-5 fade-up delay-4 ${inView ? 'in' : ''}`}>
-            <div className="bg-blue-900/30 border border-blue-800/80 rounded-2xl p-4 sm:p-5 backdrop-blur-md shadow-2xl space-y-3">
-              <div className="text-[11px] font-bold tracking-widest text-blue-300 uppercase pb-1 border-b border-blue-800/60 flex items-center justify-between">
-                <span>Flagship Systems</span>
-                <span className="text-[10px] text-blue-400 font-mono">v2.4 Live</span>
-              </div>
-
-              {PRODUCTS.map((p) => {
-                const Icon = p.icon;
-                return (
-                  <a
-                    key={p.id}
-                    href={`#${p.id}`}
-                    className="group flex items-center justify-between bg-blue-950/70 border border-blue-800/60 hover:border-blue-500/80 rounded-xl p-3 transition-all duration-200 hover:scale-[1.02] shadow-sm no-underline"
-                  >
-                    <div className="flex items-center gap-3 min-w-0">
-                      <div className="w-9 h-9 rounded-lg bg-blue-800/50 border border-blue-700/50 flex items-center justify-center flex-none group-hover:bg-blue-600 transition-colors">
-                        <Icon className="w-4 h-4 text-blue-200 group-hover:text-white" />
-                      </div>
-                      <div className="min-w-0">
-                        <p className="text-white text-xs sm:text-sm font-bold truncate group-hover:text-blue-300 transition-colors">
-                          {p.name}
-                        </p>
-                        <p className="text-blue-300/80 text-[11px] truncate">
-                          {p.eyebrow}
-                        </p>
-                      </div>
-                    </div>
-                    <ChevronRight className="w-4 h-4 text-blue-400 group-hover:text-white transition-transform group-hover:translate-x-1 shrink-0 ml-2" />
-                  </a>
-                );
-              })}
+          {/* Equal size 6-column layout for image */}
+          <div className={`lg:col-span-6 fade-up delay-4 ${inView ? 'in' : ''}`}>
+            <div className="bg-blue-900/30 border border-blue-800/80 rounded-2xl p-3 sm:p-4 backdrop-blur-md shadow-2xl overflow-hidden">
+              <img 
+                src={img} 
+                alt="Products Preview" 
+                className="w-full max-h-[460px] lg:max-h-[520px] rounded-xl object-cover shadow-inner" 
+              />
             </div>
           </div>
 

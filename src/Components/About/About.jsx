@@ -13,7 +13,7 @@ import {
   ArrowRight, Sparkles, Command,
   BadgeCheck, LineChart, Layers,
 } from 'lucide-react';
-import A1 from '../../aessts/Photos/A19.png';
+import A1 from '../../aessts/about/hero.webp';
 
 const CAPABILITIES = [
   {
@@ -466,7 +466,7 @@ const About = () => {
 
             <motion.p
               variants={fadeUp}
-              className="text-base sm:text-lg text-[#475569] font-normal leading-relaxed max-w-2xl"
+              className=" text-sm sm:text-base max-w-xl leading-relaxed"
             >
               Keyan acts as an absolute extension of your engineering capacity. We design, build, and optimize high-throughput custom platforms, resilient cloud architectures, and machine-learning workflows that remain stable under real enterprise production pressure.
             </motion.p>

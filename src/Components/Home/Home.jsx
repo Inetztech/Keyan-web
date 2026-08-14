@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { Boxes, Handshake, ArrowRight, ShieldCheck } from 'lucide-react';
 
 // Image Assets (Relative paths matching your structure)
-import H1 from '../../aessts/Photos/A9.png'; // Architectural background exterior image
+import H1 from '../../aessts/home/hero.png'; // Architectural background exterior image
 import H2 from '../../aessts/Photos/A4.png'; // Team sitting together image
 import WhoWeAre from './WhoWeAre';
 import Services from './Services';

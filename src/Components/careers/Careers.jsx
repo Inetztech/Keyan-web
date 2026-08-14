@@ -85,7 +85,7 @@ const fadeUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] } },
 };
 const stagger = (gap = 0.12, delay = 0) => ({
-  hidden: {},
+  hidden: {}, 
   show: { transition: { staggerChildren: gap, delayChildren: delay } },
 });
 
@@ -186,7 +186,7 @@ const Careers = () => {
               <span className="font-serif-editorial font-normal text-[#C4B8F0]">actually own what they ship.</span>
             </motion.h1>
 
-            <motion.p variants={fadeUp} className="text-base sm:text-lg text-white/80 leading-relaxed max-w-xl">
+            <motion.p variants={fadeUp} className="text-slate-300 text-sm sm:text-base max-w-xl leading-relaxed">
               A small, senior-heavy team working on real production infrastructure. No bureaucracy, no busywork — just systems that matter.
             </motion.p>
 
